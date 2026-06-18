@@ -19,14 +19,14 @@ export const botConfig = {
     // 1 = Streaming
     // 2 = Listening
     // 3 = Watching
-    // 4 = Custom
+    // 4 = Onduty
     // 5 = Competing
     activities: [
       {
         // Text users will see (example: "Playing /help | Titan Bot").
-        name: "Made with ❤️",
+        name: " PMO India ",
         // Activity type number (0 = Playing).
-        type: 0,
+        type: 4,
       },
     ],
   },
@@ -91,8 +91,8 @@ export const botConfig = {
   embeds: {
     colors: {
       // Main brand colors.
-      primary: "#336699",
-      secondary: "#2F3136",
+      primary: "#FF0000",
+      secondary: "#008000",
 
       // Standard status colors for success/error/warning/info messages.
       success: "#57F287",
